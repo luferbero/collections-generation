@@ -13,3 +13,9 @@
 ![image](https://user-images.githubusercontent.com/126680747/233166777-e7b8a64d-c93f-4a08-b513-509369daba17.png)
 - Resolução: https://github.com/luferbero/collections-generation/blob/main/Ex4CollectionSet.java
 
+![image](https://user-images.githubusercontent.com/126680747/234095078-a87e2ed6-2167-4021-ac00-7594195a77cc.png)
+- Resolução: https://github.com/luferbero/collections-generation/blob/main/Ex5CollectionQueue.java
+
+![image](https://user-images.githubusercontent.com/126680747/234095445-4413d331-3197-4ca6-a73e-d1484ad7f3ac.png)
+- Resolução: https://github.com/luferbero/collections-generation/blob/main/Ex6CollectionStack.java
+
