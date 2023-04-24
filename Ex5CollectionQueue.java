@@ -32,17 +32,25 @@ public class Ex5CollectionQueue {
 				System.out.println("\nFila: ");
 				System.out.println("\n" + fila);
 				System.out.println("\nCliente Adicionado!");
+				System.out.println("\nDe Enter para voltar ao menu:");
+				leia.nextLine();
 				break;
 			case 2:
 				System.out.println("\nLista de Clientes na Fila: " + fila);
+				System.out.println("\nDe Enter para voltar ao menu:");
+				leia.nextLine();
 				break;
 			case 3:
 				if (0 == fila.size()) {
 					System.out.println("A Fila está vazia!");
+					System.out.println("\nDe Enter para voltar ao menu:");
+					leia.nextLine();
 				} else {
 					fila.remove();
 					System.out.println("\nLista de Clientes na Fila: " + fila);
 					System.out.println("\nO Cliente foi chamado!");
+					System.out.println("\nDe Enter para voltar ao menu:");
+					leia.nextLine();
 				}
 				break;
 			case 0:
@@ -50,6 +58,8 @@ public class Ex5CollectionQueue {
 				break;
 			default:
 				System.out.println("Opção inválida!");
+				System.out.println("\nDe Enter para voltar ao menu:");
+				leia.nextLine();
 
 			}
 

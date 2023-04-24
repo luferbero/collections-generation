@@ -34,18 +34,26 @@ public class Ex6CollectionStack {
 				System.out.println("\nPilha:");
 				System.out.println("\n" + pilha);
 				System.out.println("\nLivro Adicionado!");
+				System.out.println("\nDe Enter para voltar ao menu:");
+				leia.nextLine();
 				break;
 			case 2:
 				System.out.println("\nLista de Livros na Pilha: " + pilha);
+				System.out.println("\nDe Enter para voltar ao menu:");
+				leia.nextLine();
 				break;
 			case 3:
 				if (0 == pilha.size()) {
 					System.out.println("A Pilha Está Vazia!");
+					System.out.println("\nDe Enter para voltar ao menu:");
+					leia.nextLine();
 				} else {
 					pilha.pop();
 					System.out.println("Pilha:");
 					System.out.println("\n" + pilha);
 					System.out.println("\nUm Livro Foi Retirado da Pilha!");
+					System.out.println("\nDe Enter para voltar ao menu:");
+					leia.nextLine();
 				}
 				break;
 			case 0:
@@ -53,6 +61,8 @@ public class Ex6CollectionStack {
 				break;
 			default:
 				System.out.println("\nOpção inválida!");
+				System.out.println("\nDe Enter para voltar ao menu:");
+				leia.nextLine();
 
 			}
 
